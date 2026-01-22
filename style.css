@@ -12,3 +12,8 @@ p {
   line-height: 1.5;
   max-width: 600px;
 }
+
+.highlight {
+  background-color: yellow;
+  padding: 5px;
+}
