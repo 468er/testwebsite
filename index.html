@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Website</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Example</title>
+  <link rel="stylesheet" href="style.css"> <!-- optional -->
+  <!-- load external JavaScript; "defer" runs it after HTML is parsed -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 id="title">Welcome!</h1>
+  <p id="para">This paragraph will change color and text.</p>
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Welcome to My Website</h1>
+  <button id="headerBlueBtn">Make header blue</button>
+  <button id="paraPurpleBtn">Make paragraph purple</button>
 
-    <p>Hello! My name is ____.</p>
-    <p class="highlight">This sentence is highlighted.</p>
+  <hr>
 
-    <h2>My Hobbies</h2>
-    <ul>
-      <li>Hobby 1</li>
-      <li>Hobby 2</li>
-    </ul>
-    
-    <h2>My Favorite Link</h2>
-    <a href="https://example.com">Click here!</a>
+  <input id="nameInput" placeholder="Type your name">
+  <button id="greetBtn">Greet me</button>
 
-    <h2>My Favorite Photo</h2>
-    <img src="https://picsum.photos/200" alt="Random image">
-    
-  </body>
+  <div id="message"></div>
+</body>
 </html>
