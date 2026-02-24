@@ -1,4 +1,3 @@
-// Wait until DOM is ready (defer usually handles this too)
 document.addEventListener('DOMContentLoaded', () => {
   const title = document.getElementById('title');
   const para = document.getElementById('para');
@@ -22,3 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
