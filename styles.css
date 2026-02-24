@@ -1,1 +1,24 @@
+body {
+  background-color: white; 
+  font-family: Georgia;
+}
 
+h1 {
+   color: red; 
+  text-align: center;
+}
+
+p {
+  color: yellow;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.highlight {
+  background-color: yellow;
+  padding: 5px;
+}
+
+.purple-text {
+  color: purple;
+}
